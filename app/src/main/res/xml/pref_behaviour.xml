@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.notifications.screen.ui.DisplayTimePreference
+        android:key="overlay_display_time"
+        android:title="@string/pref_overlay_display_time"
+        android:defaultValue="8000"
+        />
+
+    <CheckBoxPreference
+        android:key="single_view"
+        android:title="@string/pref_single_view"
+        android:summary="@string/pref_single_view_desc"
+        android:defaultValue="false"
+        />
+
+    <CheckBoxPreference
+        android:key="dismiss_on_swipe"
+        android:title="@string/pref_dismiss_on_swipe"
+        android:summary="@string/pref_dismiss_on_swipe_desc"
+        android:defaultValue="@bool/is_sdk_18"
+        android:enabled="@bool/is_sdk_18"
+        />
+
+
+    <CheckBoxPreference
+        android:key="close_on_outside_touch"
+        android:title="@string/pref_close_on_outside_touch"
+        android:summary="@string/pref_close_on_outside_touch_desc"
+        android:defaultValue="true"
+        />
+
+
+
+    <CheckBoxPreference
+        android:key="floating_window"
+        android:title="@string/pref_floating_window"
+        android:summary="@string/pref_floating_window_desc"
+        android:defaultValue="false"
+        />
+
+    <CheckBoxPreference
+        android:key="dismiss_keyguard"
+        android:title="@string/pref_dismiss_keyguard"
+        android:defaultValue="true"
+        />
+
+    <CheckBoxPreference
+        android:key="dismiss_keyguard_dirty"
+        android:title="@string/pref_dismiss_keyguard_dirty"
+        android:summary="@string/pref_dismiss_keyguard_dirty_desc"
+        android:dependency="dismiss_keyguard"
+        android:defaultValue="false"
+        />
+
+
+    <!--
+    Removed due to stability issues
+    <Screenfly.l50notifications.ui.ReminderDelayPreference
+        android:key="reminder_delay"
+        android:title="@string/pref_reminder_delay"
+        android:summary="@string/pref_reminder_delay_desc"
+        android:defaultValue="0"
+        />-->
+
+</PreferenceScreen>

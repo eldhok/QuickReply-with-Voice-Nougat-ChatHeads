@@ -1,0 +1,10 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+/build
+/build.sh
+/build.sh~
+
+app/app.iml
+heads-up.iml

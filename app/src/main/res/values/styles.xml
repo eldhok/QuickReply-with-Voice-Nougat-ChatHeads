@@ -1,0 +1,114 @@
+<!--
+  ~ This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+   <style name="AppTheme" parent="@android:style/Theme.Holo.Light"/>
+
+    <!--
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:colorPrimary">#2196F3</item>
+        <item name="android:color">#2196F3</item>
+    </style>
+    -->
+
+
+
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+
+
+    </style>
+
+
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/primary</item>
+
+    </style>
+
+    <style name="Dialog" parent="@android:style/Theme.Holo.Light.Dialog"/>
+
+    <style name="ReadTheme.Transparent" parent="@style/AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:alpha">0.98</item>
+    </style>
+
+    <style name="SuggestionHighlight">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/suggestion_highlight_text</item>
+    </style>
+    <style name="ErrorHighlight">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/error_highlight_text</item>
+    </style>
+
+    <style name="TextAppearance_Dark">
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+    <style name="TextAppearance_Light">
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="Button_Colored" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/button_enable</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">5dp</item>
+
+    </style><style name="Button_Colored_Blue" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/button_enable_on</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Button_Borderless">
+        <item name="android:background">@drawable/item_background</item>
+    </style>
+
+    <style name="ReadTheme_TextAppearance">
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="ReadTheme_TextAppearance.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="ReadTheme_TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="ReadTheme_Dark_TextAppearance">
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="ReadTheme_Dark_TextAppearance.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="ReadTheme_Dark_TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

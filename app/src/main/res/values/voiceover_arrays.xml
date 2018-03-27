@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string-array name="voiceover_actions" translatable="false">
+        <item name="0">com.android.music.metachanged</item>
+        <item name="0">com.google.android.music.metachanged</item>
+        <item name="1">com.spotify.music.metadatachanged</item>
+        <item name="1-1">com.spotify.music.playbackstatechanged</item>
+        <item name="2">com.htc.music.metachanged</item>
+        <item name="3">fm.last.android.metachanged</item>
+        <item name="4">com.sec.android.app.music.metachanged</item>
+        <item name="5">com.nullsoft.winamp.metachanged</item>
+        <item name="6">com.amazon.mp3.metachanged</item>
+        <item name="7">com.miui.player.metachanged</item>
+        <item name="8">com.real.IMP.metachanged</item>
+        <item name="9">com.sonyericsson.music.metachanged</item>
+        <item name="10">com.rdio.android.metachanged</item>
+        <item name="11">com.samsung.sec.android.MusicPlayer.metachanged</item>
+        <item name="12">com.andrew.apollo.metachanged</item>
+        <item name="13">com.tbig.playerpro.metachanged</item>
+        <item name="14">com.sonyericsson.music.playbackcontrol.ACTION_TRACK_STARTED</item>
+    </string-array>
+
+    <string-array name="voiceover_supported_apps" translatable="false">
+        <item name="0">com.android.music</item>
+        <item name="1">com.spotify.music</item>
+        <item name="1">com.spotify.music</item>
+        <item name="2">com.htc.music</item>
+        <item name="3">fm.last.android</item>
+        <item name="4">com.sec.android.app.music</item>
+        <item name="5">com.nullsoft.winamp</item>
+        <item name="6">com.amazon.mp3</item>
+        <item name="7">com.miui.player</item>
+        <item name="8">com.real.IMP</item>
+        <item name="9">com.sonyericsson.music</item>
+        <item name="10">com.rdio.android</item>
+        <item name="11">com.samsung.sec.android.MusicPlayer</item>
+        <item name="12">com.andrew.apollo</item>
+        <item name="13">com.tbig.playerpro</item>
+        <item name="14">com.sonyericsson.music</item>
+    </string-array>
+</resources>

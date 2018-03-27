@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="loading_colors">
+
+        <item name="pink_400" type="color">#ec407a</item>
+       <item name="purple_400" type="color">#ab47bc</item>
+          <item name="purple_A400" type="color">#d500f9</item>
+       <item name="deep_purple_400" type="color">#7e57c2</item>
+           <item name="deep_purple_A400" type="color">#651fff</item>
+         <item name="indigo_400" type="color">#5c6bc0</item>
+        <item name="indigo_A400" type="color">#3d5afe</item>
+        <item name="blue_400" type="color">#738ffe</item>
+        <item name="blue_A400" type="color">#4d73ff</item>
+        <item name="light_blue_400" type="color">#29b6f6</item>
+
+        <item name="light_blue_A400" type="color">#00b0ff</item>
+
+
+    </array>
+</resources>

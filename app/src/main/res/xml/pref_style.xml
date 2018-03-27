@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="overlay_style"
+        android:title="@string/pref_overlay_style"
+        android:entries="@array/overlayStyles"
+        android:entryValues="@array/overlayStyleValues"
+        android:defaultValue="1"
+        />
+
+    <Preference
+        android:key="color_selector"
+        android:title="@string/pref_color_selector"
+        android:summary="@string/pref_color_selector_desc"
+        />
+    <CheckBoxPreference
+        android:key="pro_color_change_b"
+        android:title="Default Color"
+        android:summary="@string/color_change"
+        android:defaultValue="true"
+        />
+    <ListPreference
+        android:key="overlay_vertical_position"
+        android:entries="@array/overlayPosition"
+        android:entryValues="@array/overlayPositionValues"
+        android:title="@string/pref_top_margin"
+        android:defaultValue="1"
+        />
+
+    <ListPreference
+        android:key="overlay_vertical_position_locked"
+        android:entries="@array/overlayPosition"
+        android:entryValues="@array/overlayPositionValues"
+        android:title="@string/pref_top_margin_locked"
+        android:defaultValue="0"
+        />
+
+    <com.notifications.screen.ui.OpacityPreference
+        android:key="opacity"
+        android:title="@string/pref_opacity"
+        android:defaultValue="100"
+        />
+
+    <com.notifications.screen.ui.FontSizePreference
+        android:key="font_size"
+        android:title="@string/pref_font_size"
+        android:summary="@string/pref_font_size_desc"
+        android:defaultValue="100"
+        />
+
+    <com.notifications.screen.ui.IconSizePreference
+        android:key="icon_size"
+        android:title="@string/pref_icon_size"
+        android:summary="@string/pref_icon_size_desc"
+        android:defaultValue="52"
+        />
+
+    <CheckBoxPreference
+        android:key="compact_mode"
+        android:title="@string/pref_compact_mode"
+        android:summary="@string/pref_compact_mode_desc"
+        android:defaultValue="true"
+        />
+
+    <CheckBoxPreference
+        android:key="round_icons"
+        android:title="@string/pref_round_icons"
+        android:summary="@string/pref_round_icons_desc"
+        android:defaultValue="true"
+        />
+
+    <CheckBoxPreference
+        android:key="hide_dismiss_button"
+        android:title="@string/pref_hide_dismiss_button"
+        android:summary="@string/pref_hide_dismiss_button_desc"
+        android:defaultValue="true"
+        />
+
+</PreferenceScreen>

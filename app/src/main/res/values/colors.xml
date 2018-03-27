@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <color name="colorAccent">#64B5F6</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="holo_orange_dark">#F57C00</color>
+    <color name="notification_ic_background">#0a242e</color>
+    <color name="notification_ic_small_background">#a3a3a3</color>
+    <color name="notification_btn_text_color">#eee</color>
+    <color name="notification_background">#000000</color>
+    <color name="notification_background_light">#FFFFFF</color>
+    <color name="notification_btn_text_color_light">#000</color>
+    <color name="shadow_dark">#666</color>
+
+    <color name="suggestion_highlight_text">#177bbd</color>
+    <color name="button_press_highlight">#dedede</color>
+
+    <color name="notification_icon_color">#878787</color>
+
+    <color name="text_color_dark">#000000</color>
+    <color name="text_color_light">#FFFFFF</color>
+    <color name="error_highlight_text">#ffcc0000</color>
+
+    <color name="primary">#2196F3</color>
+    <color name="primaryDark">#1E88E5</color>
+    <color name="primaryDarker">#1976D2</color>
+
+    <color name="holo_green_dark">#4CAF50</color>
+    <color name="holo_green_darker">#43A047</color>
+    <color name="holo_green_darkest">#388E3C</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="ChatGreen">#ff2ed2b9</color>
+    <color name="ChatText">#ff222021</color>
+    <color name="white">#ffffff</color>
+    <color name="LightGrey">#ffd3d3d3</color>
+    <color name="ChatBlue">#57b3f2</color>
+</resources>

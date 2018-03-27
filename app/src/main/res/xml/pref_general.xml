@@ -1,0 +1,105 @@
+<!--
+  ~ This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/toggle_key"
+        android:summary="@string/toggle_sum"
+        android:title="@string/toggle_titl"
+        />
+-->
+
+    <Preference
+        android:key="blacklist"
+        android:defaultValue=""
+        android:title="@string/title_activity_app_list">
+        <intent android:targetPackage="com.notifications.screen"
+            android:action="com.notifications.screen.activities.AppList.blacklist"
+            />
+    </Preference>
+    <Preference
+        android:key="noshowlist"
+        android:defaultValue=""
+        android:title="@string/title_activity_noshow_list">
+        <intent android:targetPackage="com.notifications.screen"
+            android:action="com.notifications.screen.activities.AppList.noshowlist"
+            />
+    </Preference>
+
+    <MultiSelectListPreference
+        android:key="notification_priority"
+        android:entries="@array/priorityLevel"
+        android:entryValues="@array/priorityLevelValues"
+        android:defaultValue="@array/priorityLevelDefaultValues"
+        android:title="@string/pref_priority_title"
+        android:summary="@string/pref_priority_summary"
+        />
+
+
+    <CheckBoxPreference
+        android:key="disable_sys_up"
+        android:title="@string/pref_disable_sys_up"
+        android:summary="@string/pref_disable_sys_up"
+        android:defaultValue="true"
+        />
+    <CheckBoxPreference
+        android:key="show_non_cancelable"
+        android:title="@string/pref_show_non_cancelable"
+        android:summary="@string/pref_show_non_cancelable_desc"
+        android:defaultValue="false"
+        />
+
+
+    <CheckBoxPreference
+        android:key="block_current_app"
+        android:title="@string/pref_block_current_app"
+        android:summary="@string/pref_block_current_app_desc"
+        android:defaultValue="true"
+        />
+
+    <CheckBoxPreference
+        android:key="music_on"
+        android:title="@string/pref_music_popup"
+        android:summary="@string/pref_music_popup_desc"
+        android:defaultValue="false"
+        />
+
+
+
+
+    <SwitchPreference
+        android:key="night_mode"
+        android:title="@string/pref_night_mode"
+        android:summary="@string/pref_night_mode_desc"
+        android:defaultValue="false" />
+
+    <com.notifications.screen.ui.ClockPreference
+        android:key="night_mode_start"
+        android:title="@string/pref_night_mode_start"
+        android:dependency="night_mode"
+        android:defaultValue="1320"
+        />
+
+    <com.notifications.screen.ui.ClockPreference
+        android:key="night_mode_end"
+        android:title="@string/pref_night_mode_end"
+        android:dependency="night_mode"
+        android:defaultValue="420"
+        />
+
+
+</PreferenceScreen>
