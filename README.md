@@ -33,20 +33,20 @@ Sometimes you did not want to quit your current app but also need to quick reply
 With Screenfly, any device get access to LockScreen and Screen notifications introduced in the Android 5.0 Lollipop, <b>No ROOT Required</b> and QuickReply introduced in Android Nougat along with Voice Reply
 
 
-<b>Highlights of Screenfly ( Voice QuickReply  ) - LockScreen or Screen Notification app : </b>
+## Highlights of Screenfly ( Voice QuickReply  ) - LockScreen or Screen Notification app : ##
 
-<b>★ Quick Reply :</b> Quick reply for all apps from notification ( heads-up ) itself without opening the notified app ! ( Android 7 Nougat Voice QuickReply feature now available for all version with Screenfly - Voice QuickReply ).
-<b>★ User data Security :</b> <b>No Internet Permission</b>, so it can't send your private data anywhere. We respect our Users and value their data.
-<b>★ Compatable :</b> Screenfly ( Voice QuickReply  ) - LockScreen or Screen notification app displays the latest notification as a LockScreen notification or Screen floating popup ( heads-up ) , complete with full text and quick actions.
-<b>★ Single line Auto Scrolling Notification :</b> The notifications will horizontal scroll automatically ( thus display in a single line - Compact mode ) and when touch will expand to show the whole text.
-<b>★ LockScreen notifications :</b> Display all your notifications on LockScreen. Cut down on the number of times you need to unlock your phone with lockscreen notifications at a glance.
-<b>★ Pocket detection :</b> When you get a notification, Screenfly turns the screen on if you take your phone out of the pocket!
-<b>★ Privacy on the LockScreen :</b> Hide your messages on LockScreen , and hence your notifications will be secure from outsiders .
-<b>★ Auto Cancel :</b> Notifications will go by itself after a customized fixed time.
-<b>★ Close on Outside Touch :</b> All notifications in LockScreen & Screen, will immediately close when touched anywhere on screen outside Screenfly .
-<b>★ Busy mode :</b> Block Screenfly from displaying notification while using some apps. Play your favourite games without any disturbance.
-<b>★ Themes :</b> Choose from a variety of Themes, customize them according to your color choice.
-<b>★ Notification Opacity :</b> Change the transparency of LockScreen or Screen Notification.
+- <b>Quick Reply :</b> Quick reply for all apps from notification ( heads-up ) itself without opening the notified app ! ( Android 7 Nougat Voice QuickReply feature now available for all version with Screenfly - Voice QuickReply ).
+- <b>User data Security :</b> <b>No Internet Permission</b>, so it can't send your private data anywhere. We respect our Users and value their data.
+- <b>Compatable :</b> Screenfly ( Voice QuickReply  ) - LockScreen or Screen notification app displays the latest notification as a LockScreen notification or Screen floating popup ( heads-up ) , complete with full text and quick actions.
+- <b>Single line Auto Scrolling Notification :</b> The notifications will horizontal scroll automatically ( thus display in a single line - Compact mode ) and when touch will expand to show the whole text.
+- <b>LockScreen notifications :</b> Display all your notifications on LockScreen. Cut down on the number of times you need to unlock your phone with lockscreen notifications at a glance.
+- <b>Pocket detection :</b> When you get a notification, Screenfly turns the screen on if you take your phone out of the pocket!
+- <b>Privacy on the LockScreen :</b> Hide your messages on LockScreen , and hence your notifications will be secure from outsiders .
+- <b>Auto Cancel :</b> Notifications will go by itself after a customized fixed time.
+- <b>Close on Outside Touch :</b> All notifications in LockScreen & Screen, will immediately close when touched anywhere on screen outside Screenfly .
+- <b>Busy mode :</b> Block Screenfly from displaying notification while using some apps. Play your favourite games without any disturbance.
+- <b>Themes :</b> Choose from a variety of Themes, customize them according to your color choice.
+- <b>Notification Opacity :</b> Change the transparency of LockScreen or Screen Notification.
 
 
 Try Screenfly ( Voice QuickReply ) now for yourself and report some Feedback.
